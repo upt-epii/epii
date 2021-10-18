@@ -5,6 +5,10 @@ anterior
 despues
 #c59e1e
 
+anterior
+e82d2d
+despues
+edc65b
 
 * Template Name: Day - v4.3.0
 * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
@@ -26,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #e82d2d;
+  color: #edc65b;
   text-decoration: none;
 }
 
@@ -718,7 +722,7 @@ padding: 60px 0;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #e82d2d;
+  background: #edc65b;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
@@ -789,7 +793,7 @@ padding: 60px 0;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #e82d2d;
+  color: #edc65b;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -860,7 +864,7 @@ padding: 60px 0;
 }
 
 .portfolio .portfolio-item .portfolio-links a:hover {
-  color: #e82d2d;
+  color: #edc65b;
 }
 
 .portfolio .portfolio-item:hover .portfolio-info {
@@ -1017,7 +1021,7 @@ padding: 60px 0;
 }
 
 .pricing .box .btn-buy:hover {
-  background: #e82d2d;
+  background: #edc65b;
 }
 
 .pricing .featured {
@@ -1208,7 +1212,7 @@ padding: 60px 0;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #e82d2d;
+  background: #edc65b;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1397,7 +1401,7 @@ padding: 60px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #e82d2d;
+  background: #edc65b;
 }
 
 #footer .copyright {
@@ -1414,7 +1418,7 @@ padding: 60px 0;
 }
 
 #footer .credits a {
-  color: #e82d2d;
+  color: #edc65b;
 }
 
 @media (max-width: 575px) {
