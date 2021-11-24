@@ -196,7 +196,6 @@
         });
         portfolioIsotope.on('arrangeComplete', function() {
           AOS.refresh()
-          AOS.refresh()
         });
       }, true);
     }
