@@ -956,6 +956,25 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  
+  <!-- cargar una vez -->
+  <script type='text/javascript'>
+
+    (function()
+    {
+      if( window.localStorage )
+      {
+        if( !localStorage.getItem('firstLoad') )
+        {
+          localStorage['firstLoad'] = true;
+          window.location.reload();
+        }  
+        else
+          localStorage.removeItem('firstLoad');
+      }
+    })();
+    
+    </script>
 
 
 <!-- BOOT-->
