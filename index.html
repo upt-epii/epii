@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <META HTTP-EQUIV="REFRESH" CONTENT="1;URL=https://upt-epii.github.io/epii/epii.html">
+  
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -43,6 +43,26 @@
 
 <body>
   
+  <?php
+  //Iniciar la sesion.
+session_start();
+ 
+//Si la variable de sesión no existe,
+//Se presume que la página aún no se ha actualizado.
+if(!isset($_SESSION['already_refreshed'])){
+ 
+//Número de segundos para actualizar la página después.
+$ActualizarDespues= 5;
+ 
+// Envíe un encabezado Refresh.
+header('Refresh:'.$ActualizarDespues);
+ 
+//Establezca la variable de sesión para que no
+//actualice de nuevo.
+    $_SESSION['already_refreshed'] = true;
+ 
+}
+  ?>
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
@@ -960,12 +980,7 @@
   <!-- cargar una vez -->
   <script type='text/javascript'>
 
-var viewMode = getCookie("view-mode");
-if(viewMode == "desktop"){
-    viewport.setAttribute('content', 'width=1024');
-}else if (viewMode == "mobile"){
-    viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no');
-}
+
     
     </script>
 
